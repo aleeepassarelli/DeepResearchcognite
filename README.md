@@ -2,7 +2,7 @@
 
 # 🚀 Deep Research Agent (DRA) v1.0
 
-### O Melhor Super Agente de Pesquisa Profunda do Mercado
+### Super Agente de Pesquisa Profunda 
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-0.1.2+-green.svg)](https://github.com/langchain-ai/langgraph)
