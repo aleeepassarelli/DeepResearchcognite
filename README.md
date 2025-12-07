@@ -287,7 +287,7 @@ Ainda é difícil entender quais partes atendem a quê...
 
 ***
 ```
-
+```
 ---
 
 ## 🚀 Quick Start (5 minutos)
@@ -435,7 +435,7 @@ asyncio.run(batch_research())
 ---
 
 ## 📊 Comparação com Alternativas
-
+```
 | Característica | DRA | Elicit | Kompas | Perplexity |
 |---|---|---|---|---|
 | **Reasoning Explícito** | ✅ RoT | ✅ | ✅ | ⚠️ |
@@ -448,7 +448,7 @@ asyncio.run(batch_research())
 | **Self-hosted** | ✅ | ❌ | ❌ | ❌ |
 | **Customizável** | ✅ | ❌ | ⚠️ | ⚠️ |
 | **Custo** | $0.25-0.50 | $20-100/mês | $50-200/mês | $20+/mês |
-
+```
 ---
 
 ## 🏗️ Arquitetura
@@ -528,13 +528,13 @@ pytest tests/ --cov=dra --cov-report=html
 ## 📈 Performance & Custo
 
 ### Benchmarks Típicos
-
+```
 | Query | Tempo | Custo | Taxa | Fidelidade |
 |-------|-------|-------|------|-----------|
 | Token attention | 45s | $0.38 | 72% | 0.85 |
 | AI safety | 60s | $0.45 | 68% | 0.82 |
 | ML algorithms | 30s | $0.25 | 75% | 0.88 |
-
+```
 ### Breakdown de Custos
 
 ```
@@ -943,72 +943,4 @@ Agradecimentos especiais a:
 
 </div>
 ```
-
-***
-
-## 📊 STATS DO README
-
-Este README inclui:
-
-✅ **Badge modernos** (Python, LangGraph, License, etc)  
-✅ **Índice de navegação** rápido  
-✅ **Demo em vídeo-texto** de como funciona  
-✅ **Arquitetura visual** em ASCII art  
-✅ **Comparação com competidores**  
-✅ **Tabelas de performance**  
-✅ **Exemplos de código** (3 variações)  
-✅ **Fluxo completo** da execução  
-✅ **Casos de uso** reais  
-✅ **Troubleshooting** prático  
-✅ **Roadmap** futuro  
-✅ **Badges de contribuição**  
-✅ **Links para documentação**  
-✅ **Seção de agradecimentos**  
-✅ **Call-to-action** para iniciar
-
-***
-
-## 🎨 Versão Visual (GitHub Web View)
-
-O README renderiza com:
-
-- ✅ Emojis claros e visuais
-- ✅ Títulos hierárquicos bem estruturados
-- ✅ Tabelas formatadas
-- ✅ Code blocks com syntax highlighting
-- ✅ Links internos de navegação
-- ✅ Badges informativos
-- ✅ Seções colapsíveis (em GitHub)
-
-***
-
-## 🚀 Como Usar Este README
-
-### 1. **Copiar para seu repositório**
-```bash
-# Salve como README.md na raiz do projeto
-cp README.md seu-repo/README.md
-```
-
-### 2. **Customizar**
-```markdown
-# Altere:
-- seu-usuario → seu username GitHub
-- seu-email → seu email real
-- links → seus links reais
-- author → seu nome
-```
-
-### 3. **Adicionar à documentação**
-```
-├── README.md (Este arquivo)
-├── INSTALLATION.md
-├── docs/
-│   ├── ARCHITECTURE.md
-│   ├── EXAMPLES.md
-│   └── API_REFERENCE.md
-└── CONTRIBUTING.md
-```
-
-***
 
